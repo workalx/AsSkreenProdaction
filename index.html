@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsScrin Prodaction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <script type="module">
+        import { loadPyodide } from "https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.mjs";
+        window.pyodide = await loadPyodide();
+    </script>
+</head>
+<body>
+    <div class="burger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <header class="header">
+        <img src="img/K.jpg" alt="SK Logo" class="logo">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#mySites">My Sites</a></li>
+                <li><a href="#orderSite">Order Site</a></li>
+                <li><a href="#about">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h1 class="game-title">Hi in my site!</h1>
+        
+        <div class="about" id="about">
+            <h1>About Me</h1>
+            <p>Hi, my name is Alex, I'm 18 years old and I'm the developer of this site. You can learn about my journey in IT in the <a href="https://www.canva.com/design/DAGiey8HrOI/mutg1oDOt2KvIImXjvZYNw/edit">presentation</a> about my project.</p>
+            
+            <p class="site-description">This site is called AsScrin Production. It was created to get a good grade on the final Computer Science test.
+            
+            I hope you'll enjoy this project! Wishing you success in your project and have fun playing on this site!</p>
+            
+            <p class="signature">Best regards,<br>Site author <span class="author-name">Alex</span></p>
+        </div>
+
+        <div class="about" id="about-website">
+            <h1>About this website</h1>
+            <p>This website, AsScrin Production, is designed to showcase my skills and projects. It serves as a portfolio and a platform to share my journey in web development. Feel free to explore and learn more about the projects I've worked on.</p>
+            <p class="site-description">The site is continuously updated with new content and features. Stay tuned for more updates and exciting projects!</p>
+            <p class="signature">Thank you for visiting!<br>Best regards,<br>Site author <span class="author-name">Alex</span></p>
+        </div>
+
+        <h1>If you are also interested in programming, I have included a block with Python videos below.</h1>
+        <h2>YouTube Videos</h2>
+        <div class="youtube-section">
+            <div class="video-grid">
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="QXeEoD0pB3E">
+                        <img src="https://img.youtube.com/vi/QXeEoD0pB3E/hqdefault.jpg" alt="Відео 1">
+                        <h3>Відео 1</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="hEgO047GxaQ">
+                        <img src="https://img.youtube.com/vi/hEgO047GxaQ/hqdefault.jpg" alt="Відео 2">
+                        <h3>Відео 2</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="CScxy0294SE">
+                        <img src="https://img.youtube.com/vi/CScxy0294SE/hqdefault.jpg" alt="Відео 3">
+                        <h3>Відео 3</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="DWgzHbglNIo">
+                        <img src="https://img.youtube.com/vi/DWgzHbglNIo/hqdefault.jpg" alt="Відео 4">
+                        <h3>Відео 4</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="TqPzwenhMj0">
+                        <img src="https://img.youtube.com/vi/TqPzwenhMj0/hqdefault.jpg" alt="Відео 5">
+                        <h3>Відео 5</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="N0YHNXsWrqc">
+                        <img src="https://img.youtube.com/vi/N0YHNXsWrqc/hqdefault.jpg" alt="Відео 6">
+                        <h3>Відео 6</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Eaz5e6M8tL4">
+                        <img src="https://img.youtube.com/vi/Eaz5e6M8tL4/hqdefault.jpg" alt="Відео 7">
+                        <h3>Відео 7</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Mf7eFtbVxFM">
+                        <img src="https://img.youtube.com/vi/Mf7eFtbVxFM/hqdefault.jpg" alt="Відео 8">
+                        <h3>Відео 8</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="2IsF7DEtVjg">
+                        <img src="https://img.youtube.com/vi/2IsF7DEtVjg/hqdefault.jpg" alt="Відео 9">
+                        <h3>Відео 9</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="4V14G5_CNGg">
+                        <img src="https://img.youtube.com/vi/4V14G5_CNGg/hqdefault.jpg" alt="Відео 10">
+                        <h3>Відео 10</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="1U8TI16AR4s">
+                        <img src="https://img.youtube.com/vi/1U8TI16AR4s/hqdefault.jpg" alt="Відео 11">
+                        <h3>Відео 11</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="_OZIAHg5i7M">
+                        <img src="https://img.youtube.com/vi/_OZIAHg5i7M/hqdefault.jpg" alt="Відео 12">
+                        <h3>Відео 12</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="gCCVsvgR2KU">
+                        <img src="https://img.youtube.com/vi/gCCVsvgR2KU/hqdefault.jpg" alt="Відео 13">
+                        <h3>Відео 13</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="NtUrTJ8S5Sc">
+                        <img src="https://img.youtube.com/vi/NtUrTJ8S5Sc/hqdefault.jpg" alt="Відео 14">
+                        <h3>Відео 14</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="v5MR5JnKcZI">
+                        <img src="https://img.youtube.com/vi/v5MR5JnKcZI/hqdefault.jpg" alt="Відео 15">
+                        <h3>Відео 15</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="AWAjbtWBzGs">
+                        <img src="https://img.youtube.com/vi/AWAjbtWBzGs/hqdefault.jpg" alt="Відео 16">
+                        <h3>Відео 16</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Bwd9hr5Fz5E">
+                        <img src="https://img.youtube.com/vi/Bwd9hr5Fz5E/hqdefault.jpg" alt="Відео 17">
+                        <h3>Відео 17</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="UAMMEmga0WI">
+                        <img src="https://img.youtube.com/vi/UAMMEmga0WI/hqdefault.jpg" alt="Відео 18">
+                        <h3>Відео 18</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="PyfKCvHALj8">
+                        <img src="https://img.youtube.com/vi/PyfKCvHALj8/hqdefault.jpg" alt="Відео 19">
+                        <h3>Відео 19</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="EkYrfV7M1ks">
+                        <img src="https://img.youtube.com/vi/EkYrfV7M1ks/hqdefault.jpg" alt="Відео 20">
+                        <h3>Відео 20</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="akcEaEH91gI">
+                        <img src="https://img.youtube.com/vi/akcEaEH91gI/hqdefault.jpg" alt="Відео 21">
+                        <h3>Відео 21</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="3dpJrMtxYeo">
+                        <img src="https://img.youtube.com/vi/3dpJrMtxYeo/hqdefault.jpg" alt="Відео 22">
+                        <h3>Відео 22</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="4OX49nLNPEE">
+                        <img src="https://img.youtube.com/vi/4OX49nLNPEE/hqdefault.jpg" alt="Відео 23">
+                        <h3>Відео 23</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="PqFKRqpHrjw">
+                        <img src="https://img.youtube.com/vi/PqFKRqpHrjw/hqdefault.jpg" alt="Відео 24">
+                        <h3>Відео 24</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="HZARImviDxg">
+                        <img src="https://img.youtube.com/vi/HZARImviDxg/hqdefault.jpg" alt="Відео 25">
+                        <h3>Відео 25</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="0ZvaDa8eT5s">
+                        <img src="https://img.youtube.com/vi/0ZvaDa8eT5s/hqdefault.jpg" alt="Відео 26">
+                        <h3>Відео 26</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="yCZBnjF4_tU">
+                        <img src="https://img.youtube.com/vi/yCZBnjF4_tU/hqdefault.jpg" alt="Відео 27">
+                        <h3>Відео 27</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="JCRpVwtVL4I">
+                        <img src="https://img.youtube.com/vi/JCRpVwtVL4I/hqdefault.jpg" alt="Відео 28">
+                        <h3>Відео 28</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="k8SXsT5TLxQ">
+                        <img src="https://img.youtube.com/vi/k8SXsT5TLxQ/hqdefault.jpg" alt="Відео 29">
+                        <h3>Відео 29</h3>
+                    </a>
+                </div>
+               
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="38svC3U7hVo">
+                        <img src="https://img.youtube.com/vi/38svC3U7hVo/hqdefault.jpg" alt="Відео 30">
+                        <h3>Відео 30</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="6a39OjkCN5I">
+                        <img src="https://img.youtube.com/vi/6a39OjkCN5I/hqdefault.jpg" alt="Відео 32">
+                        <h3>Відео 32</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="9c9qhIcB3NA">
+                        <img src="https://img.youtube.com/vi/9c9qhIcB3NA/hqdefault.jpg" alt="Відео 33">
+                        <h3>Відео 33</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="8LlXhtfNZEQ">
+                        <img src="https://img.youtube.com/vi/8LlXhtfNZEQ/hqdefault.jpg" alt="Відео 34">
+                        <h3>Відео 34</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="NYPKbmE0H6E">
+                        <img src="https://img.youtube.com/vi/NYPKbmE0H6E/hqdefault.jpg" alt="Відео 35">
+                        <h3>Відео 35</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="8sF85TyunQA">
+                        <img src="https://img.youtube.com/vi/8sF85TyunQA/hqdefault.jpg" alt="Відео 36">
+                        <h3>Відео 36</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Blzp9iuhZqo">
+                        <img src="https://img.youtube.com/vi/Blzp9iuhZqo/hqdefault.jpg" alt="Відео 37">
+                        <h3>Відео 37</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="BVfCWuca9nw">
+                        <img src="https://img.youtube.com/vi/BVfCWuca9nw/hqdefault.jpg" alt="Відео 38">
+                        <h3>Відео 38</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="ijXMGpoMkhQ">
+                        <img src="https://img.youtube.com/vi/ijXMGpoMkhQ/hqdefault.jpg" alt="Відео 39">
+                        <h3>Відео 39</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="eci9iU_s6Ag">
+                        <img src="https://img.youtube.com/vi/eci9iU_s6Ag/hqdefault.jpg" alt="Відео 40">
+                        <h3>Відео 40</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="kB829ciAXo4">
+                        <img src="https://img.youtube.com/vi/kB829ciAXo4/hqdefault.jpg" alt="Відео 41">
+                        <h3>Відео 41</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="QYUbLevwgDQ">
+                        <img src="https://img.youtube.com/vi/QYUbLevwgDQ/hqdefault.jpg" alt="Відео 42">
+                        <h3>Відео 42</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="fsAzeNZXvkE">
+                        <img src="https://img.youtube.com/vi/fsAzeNZXvkE/hqdefault.jpg" alt="Відео 43">
+                        <h3>Відео 43</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="7Sv4NmvdHcw">
+                        <img src="https://img.youtube.com/vi/7Sv4NmvdHcw/hqdefault.jpg" alt="Відео 44">
+                        <h3>Відео 44</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="gfhtaP5Wq7M">
+                        <img src="https://img.youtube.com/vi/gfhtaP5Wq7M/hqdefault.jpg" alt="Відео 45">
+                        <h3>Відео 45</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="XkL3SUioNvo">
+                        <img src="https://img.youtube.com/vi/XkL3SUioNvo/hqdefault.jpg" alt="Відео 46">
+                        <h3>Відео 46</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="TqqQld6m6A0">
+                        <img src="https://img.youtube.com/vi/TqqQld6m6A0/hqdefault.jpg" alt="Відео 47">
+                        <h3>Відео 47</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="hYzwCsKGRrg">
+                        <img src="https://img.youtube.com/vi/hYzwCsKGRrg/hqdefault.jpg" alt="Відео 48">
+                        <h3>Відео 48</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="kj850Y8y8FI">
+                        <img src="https://img.youtube.com/vi/kj850Y8y8FI/hqdefault.jpg" alt="Відео 49">
+                        <h3>Відео 49</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="6SPDvPK38tw">
+                        <img src="https://img.youtube.com/vi/6SPDvPK38tw/hqdefault.jpg" alt="Відео 70">
+                        <h3>Відео 70</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="GqHLztqy0PU">
+                        <img src="https://img.youtube.com/vi/GqHLztqy0PU/hqdefault.jpg" alt="Відео 71">
+                        <h3>Відео 71</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="aequTxAvQq4">
+                        <img src="https://img.youtube.com/vi/aequTxAvQq4/hqdefault.jpg" alt="Відео 72">
+                        <h3>Відео 72</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="ECxZtt6n90E">
+                        <img src="https://img.youtube.com/vi/ECxZtt6n90E/hqdefault.jpg" alt="Відео 73">
+                        <h3>Відео 73</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="0BhSWyDEDC4">
+                        <img src="https://img.youtube.com/vi/0BhSWyDEDC4/hqdefault.jpg" alt="Відео 74">
+                        <h3>Відео 74</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="UldZOLylez4">
+                        <img src="https://img.youtube.com/vi/UldZOLylez4/hqdefault.jpg" alt="Відео 75">
+                        <h3>Відео 75</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="DE-ye0t0oxE">
+                        <img src="https://img.youtube.com/vi/DE-ye0t0oxE/hqdefault.jpg" alt="Відео 76">
+                        <h3>Відео 76</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Vca808JTbI8">
+                        <img src="https://img.youtube.com/vi/Vca808JTbI8/hqdefault.jpg" alt="Відео 77">
+                        <h3>Відео 77</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="5KjapFQNxUo">
+                        <img src="https://img.youtube.com/vi/5KjapFQNxUo/hqdefault.jpg" alt="Відео 78">
+                        <h3>Відео 78</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="WDEyt2VHpj4">
+                        <img src="https://img.youtube.com/vi/WDEyt2VHpj4/hqdefault.jpg" alt="Відео 79">
+                        <h3>Відео 79</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="vR5utJvN4JY">
+                        <img src="https://img.youtube.com/vi/vR5utJvN4JY/hqdefault.jpg" alt="Відео 80">
+                        <h3>Відео 80</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="UBLONzkmReE">
+                        <img src="https://img.youtube.com/vi/UBLONzkmReE/hqdefault.jpg" alt="Відео 81">
+                        <h3>Відео 81</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="udO6gSLXujU">
+                        <img src="https://img.youtube.com/vi/udO6gSLXujU/hqdefault.jpg" alt="Відео 82">
+                        <h3>Відео 82</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="qj-V2Ep4coY">
+                        <img src="https://img.youtube.com/vi/qj-V2Ep4coY/hqdefault.jpg" alt="Відео 83">
+                        <h3>Відео 83</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="u4kr7EFxAKk">
+                        <img src="https://img.youtube.com/vi/u4kr7EFxAKk/hqdefault.jpg" alt="Відео 84">
+                        <h3>Відео 84</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="kU_ZtZhmmEU">
+                        <img src="https://img.youtube.com/vi/kU_ZtZhmmEU/hqdefault.jpg" alt="Відео 85">
+                        <h3>Відео 85</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="5NU6w5VhmMc">
+                        <img src="https://img.youtube.com/vi/5NU6w5VhmMc/hqdefault.jpg" alt="Відео 86">
+                        <h3>Відео 86</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="6-F7nP1DwJs">
+                        <img src="https://img.youtube.com/vi/6-F7nP1DwJs/hqdefault.jpg" alt="Відео 87">
+                        <h3>Відео 87</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="SIyxjRJ8VNY">
+                        <img src="https://img.youtube.com/vi/SIyxjRJ8VNY/hqdefault.jpg" alt="Відео 88">
+                        <h3>Відео 88</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="VuETrwKYLTM">
+                        <img src="https://img.youtube.com/vi/VuETrwKYLTM/hqdefault.jpg" alt="Відео 89">
+                        <h3>Відео 89</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="ykpuyNy5oUM">
+                        <img src="https://img.youtube.com/vi/ykpuyNy5oUM/hqdefault.jpg" alt="Відео 90">
+                        <h3>Відео 90</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="4UMs7DxWn_Q">
+                        <img src="https://img.youtube.com/vi/4UMs7DxWn_Q/hqdefault.jpg" alt="Відео 91">
+                        <h3>Відео 91</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="GNlIe5zvBeQ">
+                        <img src="https://img.youtube.com/vi/GNlIe5zvBeQ/hqdefault.jpg" alt="Відео 92">
+                        <h3>Відео 92</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Kz-G6GnumsI">
+                        <img src="https://img.youtube.com/vi/Kz-G6GnumsI/hqdefault.jpg" alt="Відео 93">
+                        <h3>Відео 93</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="_xBMAoDfydg">
+                        <img src="https://img.youtube.com/vi/_xBMAoDfydg/hqdefault.jpg" alt="Відео 94">
+                        <h3>Відео 94</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="QD4GlXtf-WU">
+                        <img src="https://img.youtube.com/vi/QD4GlXtf-WU/hqdefault.jpg" alt="Відео 95">
+                        <h3>Відео 95</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="GGkFg52Ot5o">
+                        <img src="https://img.youtube.com/vi/GGkFg52Ot5o/hqdefault.jpg" alt="Відео 96">
+                        <h3>Відео 96</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="K8Uem148uOU">
+                        <img src="https://img.youtube.com/vi/K8Uem148uOU/hqdefault.jpg" alt="Відео 97">
+                        <h3>Відео 97</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Tt3mgy2ECug">
+                        <img src="https://img.youtube.com/vi/Tt3mgy2ECug/hqdefault.jpg" alt="Відео 98">
+                        <h3>Відео 98</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Huk9tIRD_rQ">
+                        <img src="https://img.youtube.com/vi/Huk9tIRD_rQ/hqdefault.jpg" alt="Відео 99">
+                        <h3>Відео 99</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="cHBn87eRFwo">
+                        <img src="https://img.youtube.com/vi/cHBn87eRFwo/hqdefault.jpg" alt="Відео 100">
+                        <h3>Відео 100</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="nuW0o4-dSpo">
+                        <img src="https://img.youtube.com/vi/nuW0o4-dSpo/hqdefault.jpg" alt="Відео 101">
+                        <h3>Відео 101</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="7E1M1W9o7PA">
+                        <img src="https://img.youtube.com/vi/7E1M1W9o7PA/hqdefault.jpg" alt="Відео 102">
+                        <h3>Відео 102</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="d--mEqEUybA">
+                        <img src="https://img.youtube.com/vi/d--mEqEUybA/hqdefault.jpg" alt="Відео 103">
+                        <h3>Відео 103</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="69YkZqZgz9s">
+                        <img src="https://img.youtube.com/vi/69YkZqZgz9s/hqdefault.jpg" alt="Відео 104">
+                        <h3>Відео 104</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="sU7_reASCAw">
+                        <img src="https://img.youtube.com/vi/sU7_reASCAw/hqdefault.jpg" alt="Відео 105">
+                        <h3>Відео 105</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="iLhcV7t3zug">
+                        <img src="https://img.youtube.com/vi/iLhcV7t3zug/hqdefault.jpg" alt="Відео 106">
+                        <h3>Відео 106</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="ExTaxRmDnP8">
+                        <img src="https://img.youtube.com/vi/ExTaxRmDnP8/hqdefault.jpg" alt="Відео 107">
+                        <h3>Відео 107</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="6Q5OVCKufBU">
+                        <img src="https://img.youtube.com/vi/6Q5OVCKufBU/hqdefault.jpg" alt="Відео 108">
+                        <h3>Відео 108</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="JXBCw_4gwc0">
+                        <img src="https://img.youtube.com/vi/JXBCw_4gwc0/hqdefault.jpg" alt="Відео 109">
+                        <h3>Відео 109</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="Mf_97YaUKag">
+                        <img src="https://img.youtube.com/vi/Mf_97YaUKag/hqdefault.jpg" alt="Відео 110">
+                        <h3>Відео 110</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="teaeVbcT9BI">
+                        <img src="https://img.youtube.com/vi/teaeVbcT9BI/hqdefault.jpg" alt="Відео 111">
+                        <h3>Відео 111</h3>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <a href="#" class="video-link" data-video-id="iT15mk4y1iw">
+                        <img src="https://img.youtube.com/vi/iT15mk4y1iw/hqdefault.jpg" alt="Відео 112">
+                        <h3>Відео 112</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Модальне вікно для відео -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content video-modal-content">
+            <div class="video-header">
+                <button class="close-video">&times;</button>
+            </div>
+            <div class="video-container">
+                <iframe id="videoFrame" width="100%" height="100%" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальне вікно для My Sites -->
+    <div id="mySitesModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>My Sites</h2>
+            <div class="site-block">
+                <a href="https://workalx.github.io/mart-8-/" target="_blank">
+                    <img src="img/Знімок екрана 2025-03-24 005216.jpg" alt="Site 1">
+                    <p>Site 1 Description</p>
+                </a>
+            </div>
+            <div class="site-block">
+                <a href="https://workalx.github.io/K-Drama-for-you.com/index.html" target="_blank">
+                    <img src="img/Знімок екрана 2025-03-24 010133.jpg" alt="Site 2">
+                    <p>K-Drama for you</p>
+                </a>
+            </div>
+            <div class="site-block">
+                <a href="https://workalx.github.io/AnimeWorld.com/" target="_blank">
+                    <img src="img/Знімок екрана 2025-03-24 010331.jpg" alt="Site 3">
+                    <p>Anime World</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальне вікно для Order Site -->
+    <div id="orderSiteModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Order Your Custom Site</h2>
+            <p>Get a personalized website tailored to your needs. Contact us for more details!</p>
+            <div class="button-container">
+                <a href="mailto:your.email@example.com" class="order-button">Email</a>
+                <a href="https://www.instagram.com/oleksandr.khalus?igsh=MW5wNTZwbmw1am9tOA==" target="_blank" class="order-button">Instagram</a>
+                <a href="https://t.me/order_alexBot" target="_blank" class="order-button">Telegram (chat bot)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальне вікно для Email -->
+    <div id="emailModal" class="modal">
+        <div class="modal-content email-modal-content">
+            <span class="close">&times;</span>
+            <p>alexwork201006@gmail.com</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
